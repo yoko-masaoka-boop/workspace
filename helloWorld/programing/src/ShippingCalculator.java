@@ -26,5 +26,7 @@ public class ShippingCalculator {
 
         // 「送料込税込価格」を少数を含めずに出力する
         System.out.printf("送料込税込価格は%.0f円です%n", totalPrice);
+
+        scanner.close();//
     }
 }
